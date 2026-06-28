@@ -8,13 +8,14 @@
 [![Project](https://img.shields.io/badge/Project-Course%20Research-6f42c1?style=for-the-badge)](#)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![Task](https://img.shields.io/badge/Task-Smart%20Contract%20Security-d73a49?style=for-the-badge)](#)
-[![Public LB](https://img.shields.io/badge/Public%20LB-402%2B-2ea44f?style=for-the-badge)](#)
+[![Best Public LB](https://img.shields.io/badge/Best%20Public%20LB-432.26-2ea44f?style=for-the-badge)](#)
 [![Status](https://img.shields.io/badge/Status-Research%20Archive-0969da?style=for-the-badge)](#)
 
 <br>
 
 > 从匿名仓库识别、公开审计证据迁移，到固定行预算优化与语义标签精修。  
-> 本项目探索如何将一次性的模型预测，转化为**可验证、可回退、可追溯**的长期安全分析流程。
+> 本项目探索如何将一次性的模型预测，转化为**可验证、可回退、可追溯**的长期安全分析流程。  
+> 当前记录的公开榜最佳成绩：**432.26**。
 
 [项目概览](#-项目概览) ·
 [核心方法](#-核心方法) ·
@@ -221,7 +222,8 @@ flowchart TD
 
 ## 📈 实验结果
 
-> 以下分数为项目资料中记录的公开榜阶段性结果，不代表官方最终排名，也不保证私榜表现。
+> 以下分数为项目资料中记录的公开榜阶段性结果，不代表官方最终排名，也不保证私榜表现。  
+> **当前公开榜最佳成绩：432.26。**
 
 | 阶段 | 核心策略 | 公开榜分数 |
 |---|---|---:|
@@ -233,6 +235,7 @@ flowchart TD
 | Targeted Replacement | 12 对 12 同预算替换 | 382.5 |
 | Semantic Description Repair | 清除模板描述并强化根因表达 | 400.75 |
 | Exact-title Refinement | 冻结结构，仅精修标签 | ≈ 402.6 |
+| Further Iterative Optimization | 在既有高分基线之上继续进行局部迭代优化；具体策略待结合实验日志补充 | **432.26** |
 | Failed Full Replacement | 全量替换稳定基线 | 227 |
 
 ### 分数演化
@@ -253,8 +256,11 @@ flowchart TD
 400.75
   │  Description semantic alignment
   ▼
-402+
-     Exact-title tag/subtag refinement
+≈ 402.6
+  │  Exact-title tag/subtag refinement
+  ▼
+432.26
+     Further iterative optimization on the validated baseline
 ```
 
 ### 关键观察
@@ -262,6 +268,8 @@ flowchart TD
 - 最大的早期增益来自**恢复仓库身份**，而不是调整模型规模；
 - 覆盖基本完成后，主要矛盾转向**行预算分配**；
 - 结构稳定后，描述质量成为重要增益来源；
+- 在约 402.6 的阶段性基线之上，后续迭代将公开榜最佳成绩进一步提升至 **432.26**；
+- 由于当前 README 尚未记录 402.6 至 432.26 的完整实验链条，该阶段只陈述已确认成绩，不对具体增益来源作未经验证的推断；
 - 高分阶段的大范围替换风险远高于小范围、可回退修改；
 - 公开榜反馈只能作为实验信号，不能替代代码与审计证据。
 
@@ -492,7 +500,7 @@ paper/OneSavie_Bastet_course_paper.pdf
 - [ ] 增加版本漂移检测；
 - [ ] 为标签映射和提交验证补充单元测试；
 - [ ] 上传课程论文 PDF；
-- [ ] 补充完整实验日志和消融分析；
+- [ ] 补充从 402.6 提升至 432.26 的完整实验日志、策略说明和消融分析；
 - [ ] 添加中英文双语文档。
 
 ---
